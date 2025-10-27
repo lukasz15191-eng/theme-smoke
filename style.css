@@ -225,3 +225,24 @@ body{
   text-align:center;
   width:100%;
 }
+/* === FINAL FIX: Center the card perfectly + Footer spacing === */
+
+body{
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:0;
+}
+
+.card{
+  height:auto;
+  padding-bottom:40px; /* więcej miejsca nad footerem */
+}
+
+.footer{
+  margin-top:30px; /* odstęp między SOCIAL a footer */
+  margin-bottom:6px;
+  text-align:center;
+  width:100%;
+}
