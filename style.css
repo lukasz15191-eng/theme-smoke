@@ -198,12 +198,10 @@ body::after{
   padding:12px 14px;
 }
 
-/* === social === */
-.separator{
-  width:52%;
-  margin:22px auto 12px;
-  height:1px;
-  background: linear-gradient(90deg, transparent, rgba(255,191,70,.55), transparent);
+.social{
+  font-size:20px;
+  text-decoration:none;
+  color:#fff;
 }
 .social-title{
   font-weight:700;
