@@ -39,7 +39,7 @@ body{
 /* === CARD === */
 .card{
   width:720px;
-  height:860px;
+  height:820px;
   position:relative;
   z-index:2;
   text-align:center;
@@ -245,4 +245,8 @@ body{
   margin-bottom:6px;
   text-align:center;
   width:100%;
+}
+/* Przywrócenie pełnej wysokości karty */
+.card{
+  height:860px; /* Twoja wcześniejsza wysokość */
 }
