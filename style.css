@@ -39,7 +39,7 @@ body{
 /* === CARD === */
 .card{
   width:720px;
-  height:820px;
+  height:860px;
   position:relative;
   z-index:2;
   text-align:center;
