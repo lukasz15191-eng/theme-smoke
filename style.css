@@ -205,3 +205,23 @@ body{
   opacity:.75;
   margin-bottom:4px;
 }
+/* === HOTFIX: Footer + pełne centrowanie karty === */
+body{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.card{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+}
+
+/* Footer wraca tam gdzie jego miejsce */
+.footer{
+  margin-top:auto;
+  margin-bottom:6px;
+  text-align:center;
+  width:100%;
+}
